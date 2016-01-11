@@ -1,0 +1,299 @@
+/**
+ * Copyright (c) 2015 Nick Hayward
+ * All rights reserved
+**/
+
+body {
+	background-image: url(../img/book_stack.jpg);
+	font-family: 'Century Gothic', sans-serif;
+}
+
+#wrapper {
+	max-width: 807px;
+	margin: 20px auto;
+	background: #E1E1E1;
+	border-radius: 25px;
+	border: 25px solid;
+}
+
+#header {
+	background-image: url(../img/header.jpg);
+	background-color: black;
+	background-repeat: no-repeat;
+	height: 207px;
+}
+
+@media only screen and (max-device-width: 856px) {
+	#header {
+		background-image: url(../img/CBLogo_Silver.jpg);
+	}
+}
+
+#nav {
+	margin-top: -5px;
+	background-color: black;
+	text-align: center;
+}
+
+.nav-links, .active {
+	display: inline-block;
+	color: white;
+	padding: 5px 10px;
+	border: 1px solid white;
+	border-width: 0 1px 0 1px;
+}
+
+.nav-links {
+	background: black;
+	text-decoration: none;
+}
+
+.nav-links:hover, .active {
+	background: #626262;
+}
+
+#content {
+	margin: 10px 10px;
+}
+
+#quote-container {
+	height: 100px;
+	border: 1px solid;
+	padding: 0 30px 30px 30px;
+	margin: 20px 100px;
+}
+
+@media only screen and (max-device-width: 856px) {
+	#quote-container {
+		display: none;
+	}
+}
+
+.quotes {
+	display: none;
+}
+
+.quote {
+	font-size: 18px;
+}
+
+.author {
+	text-align: right;
+}
+
+#home-quote {
+	font-variant: small-caps;
+	font-size: 16pt;
+}
+
+#home-cols {
+	min-height: 510px;
+}
+
+#home-image {
+	float: left;
+	margin-right: 20px;
+}
+
+@media only screen and (max-device-width: 856px) {
+	#home-image {
+		display: none;
+	}
+}
+
+#genre-header {
+	font-variant: small-caps;
+	font-size: 14pt;
+}
+
+#genres {
+	font-variant: small-caps;
+	font-size: 14pt;
+	display: -webkit-flex;
+	display: -ms-flex;
+	display: flex;
+}
+
+#left-genres, #right-genres {
+	-webkit-flex-basis: 35%;
+	flex-basis: 35%;
+}
+
+#pic-book-wall {
+	float: right;
+	margin-left: 20px;
+}
+
+@media only screen and (max-device-width: 856px) {
+	#pic-book-wall {
+		display: none;
+	}
+}
+
+#pic-carly {
+	float: left;
+	margin: 0 30px 5px 0;
+}
+
+.folio {
+	text-align: left;
+}
+
+@media only screen and (max-device-width: 856px) {
+	.folio {
+		display: none;
+	}
+}
+
+#blog {
+	display: -webkit-flex;
+	display: -ms-flex;
+	display: flex;
+}
+
+#posts {
+	-webkit-flex-basis: 90%;
+	flex-basis: 90%;
+}
+
+@media only screen and (max-device-width: 856px) {
+	#posts {
+		-webkit-flex-basis: 100%;
+		flex-basis: 100%;
+	}
+}
+
+#side-panel {
+	-webkit-flex-grow: 1;
+	flex-grow: 1;
+	background-color: #fafafa;
+	margin: 0 0 20px 10px;
+	padding: 10px 5px;
+	border-radius: 20px;
+}
+
+@media only screen and (max-device-width: 856px) {
+	#side-panel {
+		display: none;
+	}
+}
+
+.allPosts {
+	text-align: center;
+}
+
+.allPosts a {
+	text-decoration: none;
+}
+
+.shareDesc {
+	text-align: left;
+}
+
+.share {
+	float: left;
+}
+
+.subscribe-posts {
+	float: right;
+}
+
+.post {
+	background-color: #fafafa;
+	padding: 10px;
+	margin-bottom: 20px;
+	border-radius: 20px;
+	text-align: left;
+	line-height: 1.5;
+}
+
+.post img {
+	float: right;
+	padding-left: 10px;
+}
+
+.more {
+	text-align: right;
+}
+
+.published {
+	font-size: 10pt;
+}
+
+.comment {
+	background-color: #e1e1e1;
+	padding: 10px;
+	margin: 0px 80px;
+	margin-bottom: 20px;
+	text-align: center;
+}
+
+.comment-form, .comNum {
+	text-align: center;
+}
+
+.indent {
+	position: relative;
+	left: 30px;
+	margin-right: 30px;
+}
+
+#harper {
+	min-height: 160px;
+}
+
+
+#least-likely {
+	float: left;
+	text-align: center;
+	margin-right: 20px;
+}
+
+#alexander {
+	min-height: 160px;
+}
+
+
+#sand-prince {
+	float: left;
+	text-align: center;
+	margin-right: 20px;
+}
+
+#member img {
+	margin: 0 10px;
+}
+	
+#justPub {
+	position: relative;
+	left: 30px;
+	margin-right: 30px;
+}
+
+#willow {
+	position: relative;
+	left: 30px;
+	margin-right: 30px;
+	min-height: 160px;
+}
+
+#willow img, #justPub img {
+	float: left;
+	margin-right: 20px;
+	margin-top: 0px;
+}
+
+#footer {
+	font-size: 12px;
+	margin: 10px 0 10px 0;
+}
+
+#footer #heart-book {
+	opacity: 0.65;
+}
+
+#social-media img {
+	display: inline-block;
+	margin-bottom: 10px;
+	padding: 0px 5px;
+}
