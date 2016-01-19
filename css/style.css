@@ -178,6 +178,10 @@ body {
 	}
 }
 
+#side-panel #twitter iframe {
+	width: 100% !important;
+}
+
 .allPosts {
 	text-align: center;
 }
